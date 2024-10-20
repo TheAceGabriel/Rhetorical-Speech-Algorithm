@@ -1,4 +1,7 @@
-## Mathematical Algorithm
+## Why?
+Because I got the idea that some speeches work like software for programming humans, and there's a pattern.
+
+## The Algorithm
 
 The speech generation process can be represented mathematically using the following formula:
 
@@ -78,3 +81,28 @@ Where:
 - **Emotion**: Emo(Emo) makes an emotional appeal to the audience.
 - **Vision**: V(F, G, P) paints a positive vision for the future.
 - **Closing**: C(T, P) provides a unifying and hopeful conclusion.
+
+# Code (generate_speech.py)
+
+This is a Python script that generates a political speech using rhetorical devices like repetition and rhetorical questions. The variables for the speech, such as leader name, values, and goals, are defined in thr `config.json` file.
+
+## Features
+
+- Customizable speech variables
+- Automatically generates common rhetorical devices
+- Flexible and adaptable to any spoken language
+
+## To Do
+- Test across various languages
+- Move more of the speech compone ts into JSON
+
+## Requirements
+
+- Python 3.x
+
+## Usage
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/your-username/speech-generator.git
+   cd speech-generator
